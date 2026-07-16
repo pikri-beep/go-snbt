@@ -178,7 +178,7 @@ function showToast(message) {
 // --- CHAT LOGIC (Gemini API Integration) ---
 const chatInput = document.getElementById('chat-input');
 const chatContainer = document.getElementById('chat-container');
-const GEMINI_API_KEY = "AIzaSyDvTko1M-yMx5R2AgrmFxzeF8Zfc8VQf_8"; // Key kamu yang work
+const GEMINI_API_KEY = ""; // Key kamu yang work
 let chatHistory = [];
 const systemPrompt = "Kamu adalah J.A.R.V.I.S, asisten personal belajar untuk UTBK/SNBT. Kamu ahli dalam Pengetahuan Kuantitatif, Literasi Bahasa, dan Penalaran Umum. Jawab dengan gaya AI yang cerdas, analitis, suportif, dan ramah seperti mentor privat. Gunakan bahasa Indonesia yang luwes (kadang pakai 'aku' atau 'kamu'). Jelaskan penyelesaian rumus secara step-by-step. Gunakan format Markdown untuk menebalkan kata penting (bold) dan membuat daftar poin (list) agar rapi dibaca. Jaga jawabanmu ringkas dan tidak bertele-tele.";
 
